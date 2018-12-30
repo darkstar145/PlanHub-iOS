@@ -17,7 +17,6 @@
 		BB23858A1B3DD9640079CD01 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2385891B3DD9640079CD01 /* Message.swift */; };
 		BB30CD4A1B439B60004B3177 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30CD491B439B60004B3177 /* MessagesViewController.swift */; };
 		BB7DA5111B42C8100018B530 /* aUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DA5101B42C8100018B530 /* aUser.swift */; };
-		D62823402049C94C007FF863 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2385601B3DD5AB0079CD01 /* Info.plist */; };
 		D662C0A220489729000DF94C /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = D662C0A120489729000DF94C /* Group.swift */; };
 		D6710ECD204F18D300C1FBF4 /* ManageGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6710ECC204F18D300C1FBF4 /* ManageGroupViewController.swift */; };
 		D68C491A2048F67300A51271 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D68C49192048F67200A51271 /* GoogleService-Info.plist */; };
@@ -185,7 +184,7 @@
 		BB2385541B3DD5AB0079CD01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Razeware LLC";
 				TargetAttributes = {
 					BB23855B1B3DD5AB0079CD01 = {
@@ -230,7 +229,6 @@
 				BB2385671B3DD5AB0079CD01 /* Main.storyboard in Resources */,
 				D68C491A2048F67300A51271 /* GoogleService-Info.plist in Resources */,
 				BB23856C1B3DD5AB0079CD01 /* LaunchScreen.xib in Resources */,
-				D62823402049C94C007FF863 /* Info.plist in Resources */,
 				BB2385691B3DD5AB0079CD01 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,12 +350,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -405,12 +405,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
